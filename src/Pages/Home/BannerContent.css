@@ -1,0 +1,22 @@
+/* .banner31 {
+    width: 800px;
+    height: 420px;
+}
+
+.banner32 {
+    width: 800px;
+    height: 420px;
+} */
+
+/* import banner31 from '../../assets/images/banner3.1.jpg';
+import banner32 from '../../assets/images/banner3.2.jpg';
+
+const Carnegie = () => {
+    return (
+        <div className="hero min-h-screen bg-base-200">
+            <div className="hero-content flex-col lg:flex-row-reverse">
+                <div
+                    className=''
+                    style={{
+                        backgroundImage: `url(${banner32})`
+                    }}> */
