@@ -1,0 +1,19 @@
+.lighting {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.sale {
+    color: #fff;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sBtn {
+    color: #fff;
+    background-color: #c5ac9b;
+    border-radius: 5px;
+    font-size: 15px;
+}
