@@ -7,7 +7,7 @@ import banner34 from '../../assets/images/banner3.4.jpg';
 
 const BannerContent = () => {
     return (
-        <>
+        <div>
             <div className="hero bg-[#fff]">
                 <div className="hero-content flex-col lg:flex-row">
                     <div
@@ -54,7 +54,7 @@ const BannerContent = () => {
             </div>
 
 
-        </>
+        </div>
     );
 };
 
