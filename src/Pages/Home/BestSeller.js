@@ -65,8 +65,8 @@ const BestSeller = () => {
                         <div className="w-96 ">
                             <figure><img className='w-[78%]' src={card.img} alt="Shoes" /></figure>
                             <div className="">
-                                <h4 className="text-left tText">Dome Pendant</h4>
-                                <p className='text-left pText'>$95.00</p>
+                                <h4 className="text-left tText">{card.name}</h4>
+                                <p className='text-left pText'>${card.price}</p>
                                 <p className="text-left cardSelect"><a href="/">SELECT OPTION</a></p>
                             </div>
                         </div>

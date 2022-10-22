@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Testimonials from './Testimonials';
 import testBg from '../../assets/fixedimage/bg_testimonial.jpg';
 import HotDeal from './HotDeal';
+import OurBlog from './OurBlog';
 
 const Home = () => {
     return (
@@ -17,12 +18,14 @@ const Home = () => {
                 backgroundRepeat: "no - repeat"
 
             }}>
+            <h2>This is Home Page</h2>
             <Navbar></Navbar>
             <Banner></Banner>
             <BannerContent></BannerContent>
             <BestSeller></BestSeller>
             <Testimonials></Testimonials>
             <HotDeal></HotDeal>
+            <OurBlog></OurBlog>
             <h2>This is Home Page</h2>
         </div>
     );
