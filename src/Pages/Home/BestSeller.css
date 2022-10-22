@@ -1,0 +1,21 @@
+.bsTitle {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.cardSelect {
+    color: #c5ac9b;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.pText {
+    font-size: 15px;
+    color: #c5ac9b;
+    font-weight: 400;
+}
+
+.tText {
+    font-weight: inherit;
+}

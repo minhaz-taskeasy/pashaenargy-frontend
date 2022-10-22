@@ -1,0 +1,13 @@
+.tstImg {
+    width: 88px;
+    border-radius: 50%;
+}
+
+.tstTxt {
+    font-size: 16px;
+    /* color: #fff; */
+    line-height: 28px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
