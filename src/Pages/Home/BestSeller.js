@@ -68,7 +68,7 @@ const BestSeller = () => {
                                 <div className="">
                                     <h4 className="text-left tText">{card.name}</h4>
                                     <p className='text-left pText'>${card.price}</p>
-                                    <p className="text-left cardSelect"><a href="/">SELECT OPTION</a></p>
+                                    <p className="text-left cardSelect"><a className='csLink' href="/">SELECT OPTION</a></p>
                                 </div>
                             </div>
                         </>)
