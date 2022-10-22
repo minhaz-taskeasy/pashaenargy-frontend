@@ -8,6 +8,8 @@ import testBg from '../../assets/fixedimage/bg_testimonial.jpg';
 import HotDeal from './HotDeal';
 import OurBlog from './OurBlog';
 import Instagram from './Instagram';
+import Footer from './Footer';
+import FooterEnd from './FooterEnd';
 
 const Home = () => {
     return (
@@ -28,6 +30,8 @@ const Home = () => {
             <HotDeal></HotDeal>
             <OurBlog></OurBlog>
             <Instagram></Instagram>
+            <Footer></Footer>
+            <FooterEnd></FooterEnd>
             <h2>This is Home Page</h2>
         </div>
     );

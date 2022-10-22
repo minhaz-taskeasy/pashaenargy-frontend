@@ -4,6 +4,30 @@
     padding: 10px 20px;
 }
 
+.shopBtn2 {
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 13px 20px;
+    color: white;
+    background-color: black;
+}
+
+.subBtn {
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .2em;
+}
+
+
+.shopBtnL2 :hover.subBtn {
+    color: #FFF;
+    background-color: #c5ac9b;
+    border: none;
+    padding: 14px 20px;
+}
+
 .shopBtnL :hover.shopBtn {
     color: white;
     background-color: black;
