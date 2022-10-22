@@ -7,6 +7,7 @@ import Testimonials from './Testimonials';
 import testBg from '../../assets/fixedimage/bg_testimonial.jpg';
 import HotDeal from './HotDeal';
 import OurBlog from './OurBlog';
+import Instagram from './Instagram';
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
             <Testimonials></Testimonials>
             <HotDeal></HotDeal>
             <OurBlog></OurBlog>
+            <Instagram></Instagram>
             <h2>This is Home Page</h2>
         </div>
     );
