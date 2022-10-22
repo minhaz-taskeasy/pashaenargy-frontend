@@ -57,7 +57,7 @@ const cards = [
 
 const BestSeller = () => {
     return (
-        <div>
+        <div className='bg-[#fff]'>
             <h2 className='bsTitle p-10'>Best Seller</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pl-5'>
                 {

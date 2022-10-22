@@ -4,10 +4,18 @@ import BannerContent from './BannerContent';
 import BestSeller from './BestSeller';
 import Navbar from './Navbar';
 import Testimonials from './Testimonials';
+import testBg from '../../assets/fixedimage/bg_testimonial.jpg';
 
 const Home = () => {
     return (
-        <div>
+        <div
+            style={{
+                backgroundImage: `url(${testBg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no - repeat"
+
+            }}>
             <Navbar></Navbar>
             <Banner></Banner>
             <BannerContent></BannerContent>

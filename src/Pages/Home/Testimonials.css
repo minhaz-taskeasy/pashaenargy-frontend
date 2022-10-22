@@ -11,3 +11,15 @@
     margin-bottom: 25px;
     font-weight: 400;
 }
+
+.tstHeading {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.marketing {
+    color: #c6cad0;
+}
