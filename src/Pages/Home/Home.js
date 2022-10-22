@@ -5,6 +5,7 @@ import BestSeller from './BestSeller';
 import Navbar from './Navbar';
 import Testimonials from './Testimonials';
 import testBg from '../../assets/fixedimage/bg_testimonial.jpg';
+import HotDeal from './HotDeal';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <BannerContent></BannerContent>
             <BestSeller></BestSeller>
             <Testimonials></Testimonials>
+            <HotDeal></HotDeal>
             <h2>This is Home Page</h2>
         </div>
     );
