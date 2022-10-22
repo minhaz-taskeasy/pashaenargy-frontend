@@ -57,21 +57,23 @@ const cards = [
 
 const BestSeller = () => {
     return (
-        <div className='bg-[#fff]'>
+        <div className='bg-[#fff] p-10'>
             <h2 className='bsTitle p-10'>Best Seller</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pl-5'>
-                {
-                    cards.map(card => <>
-                        <div className="w-96 ">
-                            <figure><img className='w-[78%]' src={card.img} alt="Shoes" /></figure>
-                            <div className="">
-                                <h4 className="text-left tText">{card.name}</h4>
-                                <p className='text-left pText'>${card.price}</p>
-                                <p className="text-left cardSelect"><a href="/">SELECT OPTION</a></p>
+            <div className='flex justify-center '>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pl-5'>
+                    {
+                        cards.map(card => <>
+                            <div className="w-96 ">
+                                <figure><img className='w-[78%]' src={card.img} alt="Shoes" /></figure>
+                                <div className="">
+                                    <h4 className="text-left tText">{card.name}</h4>
+                                    <p className='text-left pText'>${card.price}</p>
+                                    <p className="text-left cardSelect"><a href="/">SELECT OPTION</a></p>
+                                </div>
                             </div>
-                        </div>
-                    </>)
-                }
+                        </>)
+                    }
+                </div>
             </div>
 
         </div>

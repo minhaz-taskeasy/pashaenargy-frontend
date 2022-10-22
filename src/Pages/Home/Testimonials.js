@@ -8,7 +8,7 @@ import user4 from '../../assets/fixedimage/user4.jpg';
 const Testimonials = () => {
     return (
         <div
-            className='mt-10'
+            className='my-10 py-10'
             style={{
                 backgroundColor: "rgba(0, 0, 0, 0)"
 

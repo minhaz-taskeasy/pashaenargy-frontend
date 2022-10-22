@@ -18,10 +18,10 @@ const Home = () => {
                 backgroundImage: `url(${testBg})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                backgroundRepeat: "no - repeat"
+                backgroundRepeat: "no-repeat",
+                backgroundAttachment: "fixed"
 
             }}>
-            <h2>This is Home Page</h2>
             <Navbar></Navbar>
             <Banner></Banner>
             <BannerContent></BannerContent>
@@ -32,7 +32,6 @@ const Home = () => {
             <Instagram></Instagram>
             <Footer></Footer>
             <FooterEnd></FooterEnd>
-            <h2>This is Home Page</h2>
         </div>
     );
 };

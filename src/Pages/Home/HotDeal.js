@@ -32,20 +32,23 @@ const HotDeal = () => {
         <div className='bg-[#fff]'>
             <h2 className='bsTitle p-8'>Hot Deal</h2>
             <p className='pb-10'>Don't Miss Today's Featured Deals</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pl-5'>
-                {
-                    bCards.map(card => <>
-                        <div className="w-96 ">
-                            <figure><img className='w-[78%]' src={card.img} alt="Shoes" /></figure>
-                            <div className="">
-                                <h4 className="text-left tText">Dome Pendant</h4>
-                                <p className='text-left pText'>$95.00</p>
-                                <p className="text-left cardSelect"><a href="/">SELECT OPTION</a></p>
+            <div className='flex justify-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pl-5'>
+                    {
+                        bCards.map(card => <>
+                            <div className="w-96 ">
+                                <figure><img className='w-[78%]' src={card.img} alt="Shoes" /></figure>
+                                <div className="">
+                                    <h4 className="text-left tText">Dome Pendant</h4>
+                                    <p className='text-left pText'>$95.00</p>
+                                    <p className="text-left cardSelect"><a href="/">SELECT OPTION</a></p>
+                                </div>
                             </div>
-                        </div>
-                    </>)
-                }
+                        </>)
+                    }
+                </div>
             </div>
+
 
         </div>
     );

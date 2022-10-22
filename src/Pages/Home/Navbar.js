@@ -1,8 +1,15 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100">
+        // <div className="navbar bg-base-100">
+        <div
+            className='navbar navFixed sticky top-0 z-50'
+            style={{
+                backgroundColor: "rgba(255, 255, 255, 0.319)"
+
+            }}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,7 +24,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal p-0">
+                    <ul className="menu menu-horizontal p-0 font-bold">
                         <li><a>HOME</a></li>
                         <li><a>SHOP</a></li>
                         <li><a>FEATURE</a></li>
@@ -28,7 +35,7 @@ const Navbar = () => {
 
             </div>
             <div className="navbar-center">
-                <button className="text-xl">ALAMP</button>
+                <button className="text-4xl font-bold">ALAMP</button>
             </div>
             <div className="navbar-end">
                 <button className="m-1">
