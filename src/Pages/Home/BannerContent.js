@@ -28,7 +28,7 @@ const BannerContent = () => {
 							backgroundSize: "cover",
 						}}
 					>
-						<div className="text-left w-[50%] pl-20">
+						<div className="banner-shadow text-left w-[50%] pl-20 text-white">
 							<h3 className="text-[40px] font-bold">
 								Carnegie Light Armed Scone
 							</h3>
@@ -37,7 +37,7 @@ const BannerContent = () => {
 								an inner clear glass cylinder light shade.
 							</p>
 							<a className="shopBtnL" href="/">
-								<button className="shopBtn">SHOP NOW</button>
+								<button className="shopBtn banner-shadow">SHOP NOW</button>
 							</a>
 						</div>
 					</div>
@@ -61,8 +61,8 @@ const BannerContent = () => {
 							backgroundSize: "cover",
 						}}
 					>
-						<div className="text-left w-[50%] pl-20">
-							<h3 className="text-[40px] font-bold">
+						<div className="text-left w-[50%] pl-20 banner-shadow text-white">
+							<h3 className="text-[40px] font-bold ">
 								Carnegie Light Armed Scone
 							</h3>
 							<p className="py-6">
@@ -70,7 +70,7 @@ const BannerContent = () => {
 								an inner clear glass cylinder light shade.
 							</p>
 							<a className="shopBtnL" href="/">
-								<button className="shopBtn">SHOP NOW</button>
+								<button className="shopBtn banner-shadow">SHOP NOW</button>
 							</a>
 						</div>
 					</div>
