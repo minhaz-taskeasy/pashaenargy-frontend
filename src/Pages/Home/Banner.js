@@ -1,10 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import imgSlider01 from "../../assets/Pasha Energy/slider/slide2.3.jpg";
-import imgSlider02 from "../../assets/Pasha Energy/slider/slide2.4.jpg";
-import imgSlider03 from "../../assets/Pasha Energy/slider/slide2.5.jpg";
-import imgSlider04 from "../../assets/Pasha Energy/slider/slide2.5.jpg";
-import imgSlider05 from "../../assets/Pasha Energy/slider/slide2.6.jpg";
+import imgSlider01 from "../../assets/Pasha Energy/slider/Banner-01.jpg";
+import imgSlider02 from "../../assets/Pasha Energy/slider/Banner-02.jpg";
+import imgSlider03 from "../../assets/Pasha Energy/slider/Banner-03.jpg";
+import imgSlider04 from "../../assets/Pasha Energy/slider/Banner-04.jpg";
+import imgSlider05 from "../../assets/Pasha Energy/slider/Banner-02.jpg";
 import "./Banner.css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
