@@ -1,25 +1,25 @@
 .tstImg {
-    width: 88px;
-    border-radius: 50%;
+	width: 88px !important;
+	border-radius: 50%;
 }
 
 .tstTxt {
-    font-size: 16px;
-    /* color: #fff; */
-    line-height: 28px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    font-weight: 400;
+	font-size: 16px;
+	/* color: #fff; */
+	line-height: 28px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-weight: 400;
 }
 
 .tstHeading {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -1px;
-    color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	color: #fff;
 }
 
 .marketing {
-    color: #c6cad0;
+	color: #c6cad0;
 }

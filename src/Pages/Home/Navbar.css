@@ -5,3 +5,10 @@
     top: 0;
     width: 100%;
 } */
+
+.dropdown-shop {
+	display: none;
+}
+.shop:hover .dropdown-shop {
+	display: block;
+}

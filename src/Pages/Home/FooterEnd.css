@@ -1,3 +1,11 @@
 .footerBorder {
-    border-top: 1px solid rgba(0, 0, 0, 0.108);
+	border-top: 1px solid rgba(0, 0, 0, 0.108);
+}
+footer .link {
+	padding: 5px 0;
+}
+
+footer .link:hover {
+	color: #c4a38d;
+	text-decoration: none;
 }

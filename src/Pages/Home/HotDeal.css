@@ -1,0 +1,12 @@
+.hover-card {
+	opacity: 0;
+}
+
+.card:hover .hover-card {
+	opacity: 100;
+}
+
+.card:hover .hide-hover-card {
+	/* opacity: 0; */
+	display: none;
+}
