@@ -7,6 +7,9 @@ import imgIns01 from "../../assets/Pasha Energy/alamp_on_instagram/instagram1.jp
 import imgIns02 from "../../assets/Pasha Energy/alamp_on_instagram/instagram2.jpg";
 import imgIns03 from "../../assets/Pasha Energy/alamp_on_instagram/instagram3.jpg";
 import imgIns04 from "../../assets/Pasha Energy/alamp_on_instagram/instagram4.jpg";
+import imgInsNew01 from "../../assets/Pasha Energy/newIns-01.jpg";
+import imgInsNew02 from "../../assets/Pasha Energy/newIns-02.jpg";
+
 import "./HotDeal.css";
 import { BsInstagram } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,16 +18,17 @@ import { Navigation, Mousewheel, Keyboard } from "swiper";
 const Instagram = () => {
 	const obCards = [
 		{
-			img: imgIns01,
+			img: imgInsNew01,
 		},
 		{
 			img: imgIns02,
 		},
-		{
-			img: imgIns03,
-		},
+
 		{
 			img: imgIns04,
+		},
+		{
+			img: imgInsNew02,
 		},
 	];
 
