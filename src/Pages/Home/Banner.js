@@ -36,7 +36,7 @@ const Banner = () => {
 							<div>
 								<h3 className="lighting font-serif">Lighting Accessories</h3>
 								<p className="sale">Sale up to 50% off today</p>
-								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#c6a38b] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
+								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#009136] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
 									Shop All Collection
 								</button>
 							</div>
@@ -50,7 +50,7 @@ const Banner = () => {
 							<div>
 								<h3 className="lighting font-serif">Decorative Lighting</h3>
 								<p className="sale">Sale up to 50% off today</p>
-								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#c6a38b] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
+								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#009136] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
 									Shop All Collection
 								</button>
 							</div>
@@ -64,7 +64,7 @@ const Banner = () => {
 							<div>
 								<h3 className="lighting font-serif">Lighting Accessories</h3>
 								<p className="sale">Sale up to 50% off today</p>
-								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#c6a38b] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
+								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#009136] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
 									Shop All Collection
 								</button>
 							</div>
@@ -78,7 +78,7 @@ const Banner = () => {
 							<div className=" ">
 								<h3 className="lighting font-serif">Decorative Lighting</h3>
 								<p className="sale">Sale up to 50% off today</p>
-								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#c6a38b] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
+								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#009136] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
 									Shop All Collection
 								</button>
 							</div>
@@ -92,7 +92,7 @@ const Banner = () => {
 							<div className=" ">
 								<h3 className="lighting font-serif">Decorative Lighting</h3>
 								<p className="sale">Sale up to 50% off today</p>
-								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#c6a38b] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
+								<button className="px-4 py-2 mt-4 rounded-md font-medium bg-[#009136] text-white text-lg hover:bg-white hover:text-black transition-all duration-200">
 									Shop All Collection
 								</button>
 							</div>
