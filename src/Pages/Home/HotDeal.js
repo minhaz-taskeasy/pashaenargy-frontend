@@ -53,7 +53,7 @@ const HotDeal = () => {
 										Dome Pendant
 									</h4>
 									<p className="text-left pText relative">
-										<span className="hide-hover-card">$95.00</span>
+										<span className="hide-hover-card">৳95.00</span>
 										<span className="hover-card">Select option</span>
 									</p>
 								</div>
