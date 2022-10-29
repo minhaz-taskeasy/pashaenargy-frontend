@@ -4,10 +4,13 @@ import "./BannerContent.css";
 // import banner32 from "../../assets/images/banner3.2.jpg";
 // import banner33 from "../../assets/images/banner3.3.jpg";
 // import banner34 from "../../assets/images/banner3.4.jpg";
-import imgBanner01 from "../../assets/Pasha Energy/banner/banner3.1.jpg";
-import imgBanner02 from "../../assets/Pasha Energy/banner/banner3.1.jpg";
-import imgBanner03 from "../../assets/Pasha Energy/banner/banner3.3.jpg";
-import imgBanner04 from "../../assets/Pasha Energy/banner/banner3.4.jpg";
+// import imgBanner01 from "../../assets/Pasha Energy/banner/banner3.1.jpg";
+// import imgBanner02 from "../../assets/Pasha Energy/banner/banner3.1.jpg";
+// import imgBanner03 from "../../assets/Pasha Energy/banner/banner3.3.jpg";
+import imgBanner01 from "../../assets/Main Banner Image/01.jpg";
+import imgBanner02 from "../../assets/Main Banner Image/02.jpg";
+import imgBanner04 from "../../assets/Main Banner Image/03.jpg";
+import imgBanner03 from "../../assets/Main Banner Image/04.jpg";
 
 const BannerContent = () => {
 	return (

@@ -1,10 +1,15 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import imgSlider01 from "../../assets/Pasha Energy/slider/Banner-01.jpg";
-import imgSlider02 from "../../assets/Pasha Energy/slider/Banner-02.jpg";
-import imgSlider03 from "../../assets/Pasha Energy/slider/Banner-03.jpg";
-import imgSlider04 from "../../assets/Pasha Energy/slider/Banner-04.jpg";
-import imgSlider05 from "../../assets/Pasha Energy/slider/Banner-02.jpg";
+// import imgSlider01 from "../../assets/Pasha Energy/slider/Banner-01.jpg";
+// import imgSlider02 from "../../assets/Pasha Energy/slider/Banner-02.jpg";
+// import imgSlider03 from "../../assets/Pasha Energy/slider/Banner-03.jpg";
+// import imgSlider04 from "../../assets/Pasha Energy/slider/Banner-04.jpg";
+// import imgSlider05 from "../../assets/Pasha Energy/slider/Banner-02.jpg";
+import imgSlider01 from "../../assets/Main Banner Image/Main Banner-01.jpg";
+import imgSlider02 from "../../assets/Main Banner Image/Main Banner-02.jpg";
+import imgSlider03 from "../../assets/Main Banner Image/Main Banner-03.jpg";
+import imgSlider04 from "../../assets/Main Banner Image/Main Banner-04.jpg";
+import imgSlider05 from "../../assets/Main Banner Image/Main Banner-05.jpg";
 import "./Banner.css";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
