@@ -8,7 +8,7 @@ const Navbar = () => {
 	const [navbar, setNavbar] = useState(false);
 	//navbar scroll changeBackground function
 	const changeBackground = () => {
-		console.log(window.scrollY);
+		// console.log(window.scrollY);
 		if (window.scrollY >= 66) {
 			setNavbar(true);
 		} else {
@@ -73,17 +73,26 @@ const Navbar = () => {
 						<li className="after:h-[1px] transition-all duration-300 after:bg-orange-600">
 							<a
 								href="/"
-								className="after:content-end after:w-[20%] hover:after:w-[75%] "
+								className={`after:content-end after:w-[20%] hover:after:w-[75%] ${
+									navbar ? "text-gray-600" : "text-white"
+								}`}
 							>
 								HOME
 							</a>
 						</li>
 						<li>
-							<a href="/">SHOP</a>
+							<a
+								href="/"
+								className={`${navbar ? "text-gray-600" : "text-white"}`}
+							>
+								SHOP
+							</a>
 						</li>
 
 						<li className="shop">
-							<span>FEATURE</span>
+							<span className={`${navbar ? "text-gray-600" : "text-white"}`}>
+								FEATURE
+							</span>
 							<div className="dropdown-shop absolute left-24 top-22 bg-white shadow w-[520px] px-4 py-2">
 								<div className="flex items-center justify-between font-normal">
 									<ul>
@@ -141,10 +150,17 @@ const Navbar = () => {
 							</div>
 						</li>
 						<li>
-							<a href="/">PAGES</a>
+							<a
+								href="/"
+								className={`${navbar ? "text-gray-600" : "text-white"}`}
+							>
+								PAGES
+							</a>
 						</li>
 						<li className="shop">
-							<span>BLOGS</span>
+							<span className={`${navbar ? "text-gray-600" : "text-white"}`}>
+								BLOGS
+							</span>
 							<div className="dropdown-shop absolute left-24 top-22 bg-white shadow w-[520px] px-4 py-2">
 								<div className="flex items-center justify-between font-normal">
 									<ul>
@@ -210,7 +226,7 @@ const Navbar = () => {
 				</button>
 			</div>
 			<div className="navbar-end text-gray-800 flex items-center justify-end lg:pr-28">
-				<button className="m-1">
+				<button className={`${navbar ? "text-gray-600" : "text-white"} m-1`}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="h-5 w-5"
@@ -226,7 +242,9 @@ const Navbar = () => {
 						/>
 					</svg>
 				</button>
-				<button className="m-1 w-10">
+				<button
+					className={`${navbar ? "text-gray-600" : "text-white"} m-1 w-10`}
+				>
 					<div className="indicator">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

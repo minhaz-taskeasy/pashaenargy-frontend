@@ -11,6 +11,9 @@ import React from "react";
 import imgCard01 from "../../assets/Pasha Energy/best_seller/10.1.jpg";
 import imgCard02 from "../../assets/Pasha Energy/best_seller/15.1.jpg";
 import imgCard03 from "../../assets/Pasha Energy/best_seller/15.2.jpg";
+import imgCard04 from "../../assets/Pasha Energy/hot_deal/15.3.jpg";
+import imgCard05 from "../../assets/Pasha Energy/hot_deal/15.6.jpg";
+import imgCard06 from "../../assets/Pasha Energy/hot_deal/15.7.jpg";
 
 import "./BestSeller.css";
 import "./HotDeal.css";
@@ -23,7 +26,7 @@ const cards = [
 		price: "95",
 	},
 	{
-		img: imgCard02,
+		img: imgCard05,
 		name: "Novelty Pendant",
 		price: "78",
 	},
@@ -33,27 +36,27 @@ const cards = [
 		price: "96",
 	},
 	{
-		img: imgCard01,
+		img: imgCard06,
 		name: "Single Pendant",
 		price: "22",
 	},
 	{
-		img: imgCard02,
+		img: imgCard05,
 		name: "Light Drum Pendant",
 		price: "78",
 	},
 	{
-		img: imgCard01,
+		img: imgCard04,
 		name: "Cotton Novelty Pendant",
 		price: "35",
 	},
 	{
-		img: imgCard03,
+		img: imgCard01,
 		name: "Polyester Empire Lamp",
 		price: "33",
 	},
 	{
-		img: imgCard02,
+		img: imgCard04,
 		name: "Cotton Tapered Pendant",
 		price: "16",
 	},
