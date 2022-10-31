@@ -68,6 +68,7 @@ const BestSeller = () => {
 		<div className="bg-[#fff] pb-6">
 			<div className="container mx-auto">
 				<h2 className="bsTitle py-10">Best Seller</h2>
+				<p className="pb-10">Don't Miss Today's Featured Deals</p>
 				<div className="flex justify-center ">
 					<div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-4">
 						{cards.map((card) => (

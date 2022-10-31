@@ -37,6 +37,7 @@ const OurBlog = () => {
 		<div className="bg-[#fff] pt-10">
 			<div className="container mx-auto">
 				<h2 className="bsTitle p-10">Our Blog</h2>
+				<p className="pb-10">Don't Miss Today's Featured Deals</p>
 				<Swiper
 					slidesPerView={3}
 					spaceBetween={30}
